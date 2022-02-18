@@ -1,10 +1,10 @@
 import React from 'react';
-import Routes from './config/routes';
+import Router from './Router';
 
 export default function App() {
     return (
         <React.Fragment>
-            <Routes/>
+            <Router/>
         </React.Fragment>
     )
 }
