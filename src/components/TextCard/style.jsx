@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 
-export const TextCardStyle = styled.div`
-    display: flex;
-    flex-direction: column;
+const TextCardStyle = styled.div`
+    display: inline-block;
+    width: 50%;
+    max-height: 500px;
+    min-height: 500px;
+    margin: 0;
+    height: 70vh;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50vh;
-    color: #474747;
     font-family: Arial;
-    background-color: #fff;
-    padding: 30px;
 `;
+
+export { TextCardStyle };

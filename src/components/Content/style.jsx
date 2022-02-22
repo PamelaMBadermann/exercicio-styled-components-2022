@@ -1,16 +1,12 @@
 import styled from 'styled-components';
 
-export const ContentStyle = styled.div`
-    margin: 0;
+const ContentStyle = styled.div`
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-`;
-
-export const ContentRow = styled.div`
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    background-color: #777;
+    width: inherit;
+    flex-direction: column;
 `;
+
+export { ContentStyle };
